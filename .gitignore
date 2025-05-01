@@ -1,4 +1,4 @@
-# Node.js dependencies
+# Node modules
 node_modules/
 
 # Logs
@@ -10,10 +10,19 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 
-# Archivos de base de datos locales
+# Bases de datos SQLite
+*.db
 *.sqlite
 *.sqlite3
-*.db
 
-# Entornos de desarrollo
+# Variables de entorno
 .env
+
+# Carpetas de editores
+.vscode/
+.idea/
+
+# Archivos comprimidos o temporales
+*.zip
+*.rar
+*.tar.gz
